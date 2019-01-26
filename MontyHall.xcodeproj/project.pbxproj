@@ -26,6 +26,7 @@
 		9F368B8A21FBE7D300FA8C0B /* MontyHall */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MontyHall; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F368B8D21FBE7D300FA8C0B /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		9F368B9421FBE93100FA8C0B /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		9F368B9521FBEB4800FA8C0B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		9F368B8121FBE7D300FA8C0B = {
 			isa = PBXGroup;
 			children = (
+				9F368B9521FBEB4800FA8C0B /* README.md */,
 				9F368B9421FBE93100FA8C0B /* LICENSE */,
 				9F368B8C21FBE7D300FA8C0B /* MontyHall */,
 				9F368B8B21FBE7D300FA8C0B /* Products */,

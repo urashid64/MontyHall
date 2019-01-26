@@ -9,3 +9,4 @@ Playing 1000 games
 Option: Switch
 Wins: 647
 Losses: 353
+
