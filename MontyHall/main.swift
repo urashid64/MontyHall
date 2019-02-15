@@ -14,7 +14,7 @@ enum Option : Int {
 }
 
 print("Let us play Monty Hall Puzzle!")
-var numOfGames = 1000
+var numOfGames = 1000000
 var option = Option.Switch
 var wins = 0
 var losses = 0
@@ -28,11 +28,11 @@ for _ in 0..<numOfGames {
     var doors : [Int] = [0, 0, 0]
     
     // Assign car to a random door
-    let car = Int(arc4random()) % 3
+    let car = Int(arc4random_uniform(3))
     doors[car] = 1
     
     // Contestant picks a random door as initial choice
-    var choice = Int(arc4random()) % 3
+    var choice = Int(arc4random_uniform(3))
 
     // Monty opens a door that doesn't have the car
     // and is not chosen by the contestant
